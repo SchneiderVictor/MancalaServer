@@ -7,6 +7,7 @@ For simplicity, this usage is only for playing the game while connected to the s
 From the server, simply compile mancsrv.c then run mancsrv with the -p option (given a port number of your choice)
 
 >$ gcc -std=gnu99 -o mancsrv mancsrv.c
+
 >$ ./mancsrv -p port
 
 From the client, made sure you are connected to some terminal/shell on the server. From there call (using the same port used on teh server side):
