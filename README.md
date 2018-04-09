@@ -10,7 +10,7 @@ From the server, simply compile mancsrv.c then run mancsrv with the -p option (g
 
 >$ ./mancsrv -p port
 
-From the client, made sure you are connected to some terminal/shell on the server. From there call (using the same port used on teh server side):
+From the client, made sure you are connected to some terminal/shell on the server. From there call (using the same port used on the server side):
 
 >$ nc 127.0.0.1 port
 
