@@ -10,9 +10,17 @@ From the server, simply compile mancsrv.c then run mancsrv with the -p option (g
 
 >$ ./mancsrv -p port
 
+Optionally, for simplycity, call (you can change the port from the Makefile):
+
+>$ make server
+
 From the client, made sure you are connected to some terminal/shell on the server. From there call (using the same port used on the server side):
 
 >$ nc 127.0.0.1 port
+
+Optionally, call:
+
+>$ make client
 
 # Rules
 Each player begins with four pebbles in each regular pit, and an empty end pit.
